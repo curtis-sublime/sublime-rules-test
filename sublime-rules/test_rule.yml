@@ -1,6 +1,6 @@
 name: "Sublime Test Custom Feed Rule"
 description: "Test rule for feeds"
-type: "triage_rule"
+type: "rule"
 source:  |
   type.inbound
   and sender.email.email == "test@test.com"
