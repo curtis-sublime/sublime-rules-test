@@ -1,7 +1,7 @@
 name: "Test rule"
 description: |
   Test
-type: "triage_rule"
+type: "rule"
 source: |
   type.inbound
   and sender.email.email == "test@test.com"
